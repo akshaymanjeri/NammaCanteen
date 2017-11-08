@@ -43,9 +43,9 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
     @Override
     protected String doInBackground(String... params) {
         String type = params[0];
-        String login_url = "https://nammacanteen.000webhostapp.com/php_codes/canteen_login.php";
-        String admin_url = "https://nammacanteen.000webhostapp.com/php_codes/canteen_admin.php";
-        String reg_url= "https://nammacanteen.000webhostapp.com/php_codes/canteen_register.php";
+        String login_url = "Enter your User Login URL";
+        String admin_url = "Enter your Admin Login URL";
+        String reg_url= "Enter you Registration URL";
 
         //Posting Username and Password for User
         if(type.equals("login")) {
