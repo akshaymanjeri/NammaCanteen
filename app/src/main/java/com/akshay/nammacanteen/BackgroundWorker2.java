@@ -37,13 +37,13 @@ public class BackgroundWorker2 extends AsyncTask<String,Void,String> {
     @Override
     protected String doInBackground(String... params) {
         String type = params[0];
-        String insert_url = "https://nammacanteen.000webhostapp.com/php_codes/canteen_insert.php";
-        String insert2_url = "https://nammacanteen.000webhostapp.com/php_codes/canteen_insert2.php";
-        String delete_url = "https://nammacanteen.000webhostapp.com/php_codes/canteen_delete.php";
-        String delete2_url = "https://nammacanteen.000webhostapp.com/php_codes/canteen_delete2.php";
-        String review_url= "https://nammacanteen.000webhostapp.com/php_codes/canteen_ureview.php";
-        String order_url= "https://nammacanteen.000webhostapp.com/php_codes/canteen_orderAmt.php";
-        String logout_url= "https://nammacanteen.000webhostapp.com/php_codes/canteen_uLogout.php";
+        String insert_url = "Enter your Insert Item URL";
+        String insert2_url = "Enter your Insert Category URL";
+        String delete_url = "Enter your Delete Category URL";
+        String delete2_url = "Enter your Delete Item URL";
+        String review_url= "Enter your User Review URL";
+        String order_url= "Enter your Order Submit URL";
+        String logout_url= "Enter your User Logout URL";
 
         //Posting Itemid, Itemname, Price and Cid
         if (type.equals("add2")) {
