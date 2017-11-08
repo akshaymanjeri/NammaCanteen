@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NammaCanteen</string>
+    <string name="title_activity_main_page">mainPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_settings">Review</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="items_coming_soon">Items Coming Soon</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="title_status">Status</string>
+    <string name="wreview">Write your Review</string>
+    <string name="insert">Insert Category</string>
+</resources>
