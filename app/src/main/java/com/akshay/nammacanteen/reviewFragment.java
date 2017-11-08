@@ -33,7 +33,7 @@ import java.util.List;
  * create an instance of this fragment.
  */
 public class reviewFragment extends Fragment {
-    private static final String url="https://nammacanteen.000webhostapp.com/php_codes/canteen_aReview.php";
+    private static final String url="Enter the Review List URL";
     List<Review> reviewList;
     RecyclerView recyclerView;
     // TODO: Rename parameter arguments, choose names that match
