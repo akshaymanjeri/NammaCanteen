@@ -37,10 +37,9 @@ import java.util.List;
  */
 public class profileFragment extends Fragment {
 
-    private static final String url="https://nammacanteen.000webhostapp.com/php_codes/canteen_profile.php";
+    private static final String url="Enter your Profile URL";
     List<Profile> profileList;
     RecyclerView recyclerView;
-//    String phno;
 
 
     // TODO: Rename parameter arguments, choose names that match
