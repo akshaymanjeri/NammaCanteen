@@ -3,6 +3,7 @@ $mysql_host='localhost';
 $mysql_user='id3044780_admin';
 $mysql_password='admin';
 $mysql_dbname='id3044780_canteen';
+
 $conn=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_dbname);
 $cid=$_POST["cid"];
 $stmt="DELETE FROM `category` WHERE cid like '$cid';";
