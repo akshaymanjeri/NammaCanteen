@@ -10,12 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-//import com.android.volley.Request;
-//import com.android.volley.Response;
-//import com.android.volley.VolleyError;
-//import com.android.volley.toolbox.StringRequest;
-//import com.android.volley.toolbox.Volley;
-
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -39,7 +33,7 @@ import java.util.List;
  * create an instance of this fragment.
  */
 public class orderFragment extends Fragment {
-    private static final String url="https://nammacanteen.000webhostapp.com/php_codes/canteen_json.php";
+    private static final String url="Enter your item fetch URL";
     List<Item> itemList;
     RecyclerView recyclerView;
     // TODO: Rename parameter arguments, choose names that match
